@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Email module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 13:45-0300\n"
+"PO-Revision-Date: 2023-04-16 14:00+0200\n"
+"Last-Translator: Emerson Barros\n"
+"Language-Team: RosarioSIS <info@rosariosis.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: dgettext:2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: EmailStudents.php:42 EmailStudents.php:60
+msgid "Select Student email field"
+msgstr "Selecionar o campo e-mail do estudante"
+
+#: EmailStudents.php:46 EmailStudents.php:322 EmailStudents.php:401
+#: EmailUsers.php:216
+msgid "Username"
+msgstr ""
+
+#: EmailStudents.php:111 EmailUsers.php:63
+msgid ""
+"You must set the <b>test mode email</b> or have a user email address to use "
+"this script."
+msgstr ""
+
+#: EmailStudents.php:231
+msgid "Already sent"
+msgstr "Já enviado"
+
+#: EmailStudents.php:244 EmailUsers.php:125
+msgid "Success"
+msgstr ""
+
+#: EmailStudents.php:244 EmailUsers.php:125
+msgid "Fail"
+msgstr ""
+
+#: EmailStudents.php:266
+msgid "[Copy]"
+msgstr "[Cópia]"
+
+#: EmailStudents.php:317
+msgid "Student"
+msgstr ""
+
+#: EmailStudents.php:326 EmailStudents.php:391 EmailStudents.php:494
+#: EmailStudents.php:495 EmailStudents.php:508 EmailUsers.php:155
+#: EmailUsers.php:206 EmailUsers.php:238 EmailUsers.php:239 EmailUsers.php:252
+msgid "Email"
+msgstr ""
+
+#: EmailStudents.php:327 EmailUsers.php:156
+msgid "Result"
+msgstr ""
+
+#: EmailStudents.php:345
+msgid "You must choose at least one student."
+msgstr ""
+
+#: EmailStudents.php:369 EmailStudents.php:523
+msgid "Send Email to Selected Students"
+msgstr "Enviar e-mail a estudantes seleccionados"
+
+#: EmailStudents.php:380 EmailUsers.php:195
+msgid "Subject"
+msgstr "Assunto"
+
+#: EmailStudents.php:396 EmailUsers.php:211
+msgid "Display Name"
+msgstr ""
+
+#: EmailStudents.php:397 EmailUsers.php:212
+msgid "Last Name"
+msgstr ""
+
+#: EmailStudents.php:398 EmailUsers.php:213
+msgid "First Name"
+msgstr ""
+
+#: EmailStudents.php:399 EmailUsers.php:214
+msgid "Middle Name"
+msgstr ""
+
+#: EmailStudents.php:400 EmailUsers.php:215
+#, php-format
+msgid "%s ID"
+msgstr ""
+
+#: EmailStudents.php:402
+msgid "School"
+msgstr ""
+
+#: EmailStudents.php:403
+msgid "Grade Level"
+msgstr ""
+
+#: EmailStudents.php:409
+msgid "Attendance Teacher"
+msgstr ""
+
+#: EmailStudents.php:410
+msgid "Attendance Room"
+msgstr ""
+
+#: EmailStudents.php:416
+msgid "Your Name"
+msgstr ""
+
+#: EmailStudents.php:417
+msgid "Your Room"
+msgstr ""
+
+#: EmailStudents.php:430 EmailUsers.php:228
+msgid "Files Attached"
+msgstr "Arquivos anexado"
+
+#: EmailStudents.php:462
+msgid "Send copy to"
+msgstr "Enviar uma cópia para"
+
+#: EmailStudents.php:472
+msgid "Administrators"
+msgstr ""
+
+#: EmailStudents.php:482
+msgid "Teachers"
+msgstr ""
+
+#: EmailStudents.php:490 EmailUsers.php:234
+msgid "Test Mode"
+msgstr ""
+
+#: EmailUsers.php:151
+msgid "User"
+msgstr ""
+
+#: EmailUsers.php:163
+msgid "You must choose at least one user"
+msgstr ""
+
+#: EmailUsers.php:184 EmailUsers.php:267
+msgid "Send Email to Selected Users"
+msgstr "Enviar e-mail a usuários seleccionados"
+
+#: Menu.php:16 Menu.php:18 Menu.php:24 Menu.php:26
+msgid "Send Email"
+msgstr "Enviar e-mail"
+
+#: includes/Substitutions.fnc.php:54
+msgid "Copy"
+msgstr "Cópia"
+
+#: includes/Substitutions.fnc.php:57
+msgid ""
+"Copy the substitution code and paste it into your text. The code will be "
+"dynamically replaced with the corresponding value."
+msgstr ""
+
+#: includes/Substitutions.fnc.php:61
+msgid "Substitutions"
+msgstr ""
+
+#: includes/Substitutions.fnc.php:279
+msgid "Yes"
+msgstr ""
+
+#: includes/Substitutions.fnc.php:279
+msgid "No"
+msgstr ""
+
+#: includes/Substitutions.fnc.php:287 includes/Substitutions.fnc.php:302
+msgid "N/A"
+msgstr ""
+
+#~ msgid "You must configure the %s to use this script."
+#~ msgstr "Debe configurar el %s para poder usar este programa."
+
+#~ msgid "[Send Email copy]"
+#~ msgstr "[Copia]"
+
+#~ msgid "Email not sent to: %s"
+#~ msgstr "Email no enviado a: %s"
+
+#~ msgid "The discpline logs have been sent."
+#~ msgstr "Los historiales disciplinario han sido enviados."
+
+#~ msgid "Send Log to Selected Parents"
+#~ msgstr "Enviar el Historial a los Padres Seleccionados"
+
+#~ msgid "Email Report Cards to Parents"
+#~ msgstr "Enviar los Boletines de Calificaciones a los Padres"
+
+#~ msgid "Email Discipline Log to Parents"
+#~ msgstr "Enviar Historial Disciplinario a los Padres"
+
+#~ msgid "Email Student Balances to Parents"
+#~ msgstr "Enviar los Saldos Estudiante a los Padres"
+
+#~ msgid "The report cards have been sent."
+#~ msgstr "Los boletines de calificaciones han sido enviados."
+
+#~ msgid "Send Report Cards to Selected Parents"
+#~ msgstr "Enviar los Boletines de Calificaciones a los Padres Seleccionados"
+
+#~ msgid "Student Balance"
+#~ msgstr "Saldo Estudiante"
+
+#~ msgid "The student balances have been sent."
+#~ msgstr "Los saldos estudiante han sido enviados."
+
+#~ msgid "Send Balances to Selected Parents"
+#~ msgstr "Enviar los Saldos a los Padres Seleccionados"
+
+#~ msgid "# of Students"
+#~ msgstr "# de Estudiantes"
+
+#~ msgid "# of Administrators"
+#~ msgstr "# de Administradores"
+
+#~ msgid "# of Teachers"
+#~ msgstr "# de Docentes"
+
+#~ msgid "# of Parents"
+#~ msgstr "# de Padres"
+
+#~ msgid "Create Subject PDF for Selected Students"
+#~ msgstr "Crear el PDF Materia para los Estudiantes Seleccionados"
+
+#~ msgid "Example"
+#~ msgstr "Ejemplo"
+
+#~ msgid "Example Widget"
+#~ msgstr "Widget de Ejemplo"
+
+#~ msgid "Setup"
+#~ msgstr "Configuración"
+
+#~ msgid "Example Resource"
+#~ msgstr "Recurso de Ejemplo"
+
+#~ msgid "The configuration value has been modified."
+#~ msgstr "El valor de configuración ha sido modificado."
+
+#~ msgid "Example module Setup"
+#~ msgstr "Configuración del Módulo Ejemplo"
+
+#~ msgid "Try to enter a non-numeric value"
+#~ msgstr "Intente entrar un valor no numerico"
+
+#~ msgid "Example config value label"
+#~ msgstr "Ejemplo de nombre del valor de config"

@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Timetable Import Module for RosarioSIS.\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-02 16:28+0200\n"
+"PO-Revision-Date: 2023-04-02 16:28+0200\n"
+"Last-Translator: François Jacquet <info@rosariosis.org>\n"
+"Language-Team: RosarioSIS <info@rosariosis.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: dgettext:2\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Menu.php:13 Menu.php:19
+msgid "Timetable Import"
+msgstr "Import emploi du temps"
+
+#: TimetableImport.php:51 TimetableImport.php:73
+msgid "Cannot open file."
+msgstr "Le fichier ne peut pas être ouvert."
+
+#: TimetableImport.php:81
+#, php-format
+msgid "%s Course Periods were imported."
+msgstr "%s classes ont été importés."
+
+#: TimetableImport.php:132
+msgid "Database Backup"
+msgstr ""
+
+#: TimetableImport.php:136
+#, php-format
+msgid "Maximum file size: %01.0fMb"
+msgstr ""
+
+#: TimetableImport.php:138
+msgid "Select CSV or Excel file"
+msgstr "Sélectionner fichier CSV ou Excel"
+
+#: TimetableImport.php:140
+msgid "Submit"
+msgstr ""
+
+#: TimetableImport.php:169
+#, php-format
+msgid "%s rows"
+msgstr "%s lignes"
+
+#: TimetableImport.php:171 TimetableImport.php:319
+msgid "Import Timetable"
+msgstr "Importer l'emploi du temps"
+
+#: TimetableImport.php:185
+msgid ""
+"Are you absolutely ready to import timetable? Make sure you have backed up "
+"your database!"
+msgstr ""
+"Êtes-vous prêt pour importer l'emploi du temps ? Assurez-vous d'avoir "
+"sauvegardé la base de données !"
+
+#: TimetableImport.php:195
+msgid "Stop"
+msgstr "Stop"
+
+#: TimetableImport.php:228
+msgid "Import first row"
+msgstr "Importer la primière ligne"
+
+#: TimetableImport.php:235
+msgid "Reset form"
+msgstr "Réinitialiser le formulaire"
+
+#: TimetableImport.php:243
+msgid "Delete existing Courses and Course Periods"
+msgstr "Supprimer les cours et classes existantes"
+
+#: TimetableImport.php:254
+msgid "Timetable Fields"
+msgstr "Champs emploi du temps"
+
+#: TimetableImport.php:257
+msgid "Activity ID"
+msgstr "ID activité"
+
+#: TimetableImport.php:261
+msgid "Day"
+msgstr ""
+
+#: TimetableImport.php:265
+msgid "Period"
+msgstr ""
+
+#: TimetableImport.php:272
+msgid "Student Sets"
+msgstr "Groupes d'élèves"
+
+#: TimetableImport.php:272
+msgid "Grade Levels"
+msgstr ""
+
+#: TimetableImport.php:278
+msgid "Subject"
+msgstr ""
+
+#: TimetableImport.php:282
+msgid "Teacher"
+msgstr ""
+
+#: TimetableImport.php:286
+msgid "Room"
+msgstr ""
+
+#: TimetableImport.php:290
+msgid "Seats"
+msgstr ""
+
+#: TimetableImport.php:307
+msgid "Marking Period"
+msgstr ""
+
+#: includes/TimetableImport.fnc.php:82
+msgid ""
+"PHP zip extension is required. Please enable it or convert your file to CSV."
+msgstr ""
+"Extension PHP zip requise. Merci de l'activer ou bien de convertir votre "
+"fichier en CSV."
+
+#: includes/TimetableImport.fnc.php:535 includes/TimetableImport.fnc.php:557
+msgid "Sunday"
+msgstr ""
+
+#: includes/TimetableImport.fnc.php:536 includes/TimetableImport.fnc.php:558
+msgid "Monday"
+msgstr ""
+
+#: includes/TimetableImport.fnc.php:537 includes/TimetableImport.fnc.php:559
+msgid "Tuesday"
+msgstr ""
+
+#: includes/TimetableImport.fnc.php:538 includes/TimetableImport.fnc.php:560
+msgid "Wednesday"
+msgstr ""
+
+#: includes/TimetableImport.fnc.php:539 includes/TimetableImport.fnc.php:561
+msgid "Thursday"
+msgstr ""
+
+#: includes/TimetableImport.fnc.php:540 includes/TimetableImport.fnc.php:562
+msgid "Friday"
+msgstr ""
+
+#: includes/TimetableImport.fnc.php:541 includes/TimetableImport.fnc.php:563
+msgid "Saturday"
+msgstr ""
+
+#: includes/TimetableImport.fnc.php:620
+msgid "No teacher found."
+msgstr "Aucun enseignant trouvé."
+
+#: includes/TimetableImport.fnc.php:629
+msgid "No subject found."
+msgstr "Aucune matière trouvée."
+
+#: includes/TimetableImport.fnc.php:638
+msgid "No day found."
+msgstr "Aucun jour trouvé."
+
+#: includes/TimetableImport.fnc.php:648
+msgid "No period found."
+msgstr "Aucune heure trouvée."
+
+#: includes/TimetableImport.fnc.php:657
+msgid "No student sets / grade levels found."
+msgstr "Aucun groupe d'élèves / niveau scolaire trouvé."
+
+#: includes/TimetableImport.fnc.php:684
+msgid "None"
+msgstr ""
+
+#~ msgid "%s users were imported."
+#~ msgstr "%s utilisateurs ont été importés."
+
+#~ msgid "Import Users"
+#~ msgstr "Importer Utilisateurs"
+
+#~ msgid ""
+#~ "Are you absolutely ready to import users? Make sure you have backed up "
+#~ "your database!"
+#~ msgstr ""
+#~ "Êtes-vous prêt pour importer les utilisateurs? Assurez-vous d'avoir "
+#~ "sauvegardé la base de données!"
+
+#~ msgid "No names were found."
+#~ msgstr "Aucun nom n'a été trouvé."
+
+#~ msgid "IDs are automatically generated if you select \"N/A\"."
+#~ msgstr "Les IDs sont automatiquement générés si vous séleccionnez \"N/D\"."
+
+#~ msgid "If the date is left empty, users will not be enrolled (inactive)."
+#~ msgstr ""
+#~ "Si vous n'indiquez pas de date, les élèves ne seront pas inscrits "
+#~ "(inactifs)."
+
+#~ msgid "Timetable Import for "
+#~ msgstr "Importación de Estudiantes para "
+
+#~ msgid "CSV file imported."
+#~ msgstr "Archivo CSV importado."
+
+#~ msgid "Cannot open CSV file."
+#~ msgstr "El archivo CSV no se puede abrir."
+
+#~ msgid "CSV columns reference: see \"CSV_COLUMNS_REFERENCE\" file."
+#~ msgstr ""
+#~ "Referencia de columnas CSV: ver el archivo \"CSV_COLUMNS_REFERENCE\"."
+
+#~ msgid "Set Username as %s"
+#~ msgstr "Definir Nombre de Usuario como %s"
+
+#~ msgid "Set Password as %s"
+#~ msgstr "Definir Contraseña como %s"
+
+#~ msgid "Select CSV file"
+#~ msgstr "Seleccionar archivo CSV"
+
+#~ msgid "Import CSV file"
+#~ msgstr "Importar archivo CSV"
+
+#~ msgid "The following required columns were not found in the CSV file: %s"
+#~ msgstr ""
+#~ "Las columnas requeridas no han sido encontradas en el archivo CSV: %s"
+
+#~ msgid "# of Users"
+#~ msgstr "# de Estudiantes"
+
+#~ msgid "# of Administrators"
+#~ msgstr "# de Administradores"
+
+#~ msgid "# of Teachers"
+#~ msgstr "# de Docentes"
+
+#~ msgid "# of Parents"
+#~ msgstr "# de Padres"
+
+#~ msgid "Example"
+#~ msgstr "Ejemplo"
+
+#~ msgid "Create Subject PDF for Selected Users"
+#~ msgstr "Crear el PDF Materia para los Estudiantes Seleccionados"
+
+#~ msgid "Example Widget"
+#~ msgstr "Widget de Ejemplo"
+
+#~ msgid "Setup"
+#~ msgstr "Configuración"
+
+#~ msgid "Example Resource"
+#~ msgstr "Recurso de Ejemplo"
+
+#~ msgid "The configuration value has been modified."
+#~ msgstr "El valor de configuración ha sido modificado."
+
+#~ msgid "Example module Setup"
+#~ msgstr "Configuración del Módulo Ejemplo"
+
+#~ msgid "Try to enter a non-numeric value"
+#~ msgstr "Intente entrar un valor no numerico"
+
+#~ msgid "Example config value label"
+#~ msgstr "Ejemplo de nombre del valor de config"
